@@ -1,6 +1,6 @@
 import React from 'react'
   import { BoltIcon, UsersIcon } from '@heroicons/react/24/outline'
-  
+import Image from 'next/image'  
   const primaryFeatures = [
     {
       name: 'AI Strategy Development',
@@ -121,10 +121,12 @@ import React from 'react'
             </div>
             <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
               <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-8">
-                <img
+                <Image
                   alt="Tampa Dynamics"
                   src="https://tailwindui.com/plus/img/logos/mark.svg?color=blue&shade=500"
                   className="h-11"
+                  width={0}
+                  height={0}
                 />
                 <h1 className="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
                   Unlock the Power of AI with Tampa Dynamics
@@ -146,7 +148,7 @@ import React from 'react'
               </div>
               <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
                 <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                  <img
+                  <Image
                     alt="App screenshot"
                     src="https://tailwindui.com/plus/img/component-images/dark-project-app-screenshot.png"
                     width={2432}
@@ -164,35 +166,35 @@ import React from 'react'
               The world’s most innovative companies use our app
             </h2>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-              <img
+              <Image
                 alt="Transistor"
                 src="https://tailwindui.com/plus/img/logos/158x48/transistor-logo-white.svg"
                 width={158}
                 height={48}
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               />
-              <img
+              <Image
                 alt="Reform"
                 src="https://tailwindui.com/plus/img/logos/158x48/reform-logo-white.svg"
                 width={158}
                 height={48}
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               />
-              <img
+              <Image
                 alt="Tuple"
                 src="https://tailwindui.com/plus/img/logos/158x48/tuple-logo-white.svg"
                 width={158}
                 height={48}
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               />
-              <img
+              <Image
                 alt="SavvyCal"
                 src="https://tailwindui.com/plus/img/logos/158x48/savvycal-logo-white.svg"
                 width={158}
                 height={48}
                 className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
               />
-              <img
+              <Image
                 alt="Statamic"
                 src="https://tailwindui.com/plus/img/logos/158x48/statamic-logo-white.svg"
                 width={158}
@@ -249,7 +251,7 @@ import React from 'react'
             </div>
             <div className="relative overflow-hidden pt-16">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <img
+                <Image
                   alt="App screenshot"
                   src="https://tailwindui.com/plus/img/component-images/dark-project-app-screenshot.png"
                   width={2432}
