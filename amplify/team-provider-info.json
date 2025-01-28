@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tampadynamics-dev-1d7df-authRole",
+      "UnauthRoleArn": "arn:aws:iam::815328289934:role/amplify-tampadynamics-dev-1d7df-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::815328289934:role/amplify-tampadynamics-dev-1d7df-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tampadynamics-dev-1d7df-deployment",
+      "UnauthRoleName": "amplify-tampadynamics-dev-1d7df-unauthRole",
+      "StackName": "amplify-tampadynamics-dev-1d7df",
+      "StackId": "arn:aws:cloudformation:us-east-1:815328289934:stack/amplify-tampadynamics-dev-1d7df/d3372290-dd9b-11ef-bde3-0affce897f03",
+      "AmplifyAppId": "d14b3oo0yd2h8g"
+    },
+    "categories": {
+      "api": {
+        "tampadynamics": {}
+      }
+    }
+  }
+}
