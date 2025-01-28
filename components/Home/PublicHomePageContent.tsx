@@ -132,7 +132,7 @@ import Image from 'next/image'
                   Unlock the Power of AI with Tampa Dynamics
                 </h1>
                 <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
-                Welcome to Tampa Dynamics, where the future of your business begins. We're not just consultants; we're architects of innovation, crafting AI solutions tailored to your unique challenges.
+                Welcome to Tampa Dynamics, where the future of your business begins. We&apos;re not just consultants; we&apos;re architects of innovation, crafting AI solutions tailored to your unique challenges.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
